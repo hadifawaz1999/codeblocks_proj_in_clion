@@ -1,15 +1,6 @@
-/*first open the code blocks project folder and add a new .txt file and name it "CMakeLists.txt"
-
-in this .txt you have to write these lines (while file_name=project_name and main.cpp is the main of your project) :
-*/
-
-
 cmake_minimum_required(VERSION 3.15)
 project(file_name)
 
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(file_name main.cpp)
-
-
-//and than open the project in cline as "open project" and find the folder named "file_name".
